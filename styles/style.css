@@ -330,6 +330,17 @@ body {
     }
 }
 
+@media (max-width:1600px) {
+    .main__monitor--titulo {
+        font-size: 2rem;
+    }
+
+    .main__monitor--card {
+        width: 50%;
+        height: 70%;
+    }
+}
+
 /* BLOG */
 .main__blog {
     width: 100%;
