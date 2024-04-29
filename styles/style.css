@@ -434,6 +434,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row-reverse;  
+    align-items: flex-end;
 }
 
 .main__blog--linkVer {
@@ -442,7 +443,7 @@ body {
     text-decoration: underline;
     font-size: 1.5rem;
     cursor: pointer;
-    padding: 2rem 4rem;
+    padding: 0 4rem;
 }
 
 .main__blog--linkVer:hover {
@@ -505,6 +506,7 @@ body {
     .main__blog--slide:nth-child(6){transform: rotateY(250deg) translateZ(550px);}
     
     .main__blog--slide:nth-child(7){transform: rotateY(300deg) translateZ(550px);}
+
 }
 
 /* TIENDA */
