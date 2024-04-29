@@ -178,8 +178,8 @@ body {
 } 
 
 .main__nosotros--img {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     border-radius: 2rem;
     box-shadow: 10px 10px 15px var(--azul);
     animation: efectoNosotros 2s ease;
@@ -204,8 +204,8 @@ body {
 }
 
 .main__nosotros--parrafo {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     font-size: 1.3rem;
     color: white;
     margin: 0;
@@ -218,8 +218,8 @@ body {
     transform: rotate(0deg);
    } 
    100% {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     transform: rotate(360deg);
    } 
 }
