@@ -47,7 +47,7 @@ body {
 }
 
 .header__listaIzq {  
-    width: 50%;
+    width: 40%;
     display: flex;
     list-style-type: none;
     padding: 0; 
@@ -55,7 +55,7 @@ body {
 }
 
 .header__listaDer {
-    width: 50%;
+    width: 40%;
     display: flex;
     list-style-type: none;
     padding: 0;
@@ -92,6 +92,14 @@ body {
 }
 
 @media (max-width:1600px) {
+    .header__listaIzq {  
+        width: 50%;
+    }
+    
+    .header__listaDer {
+        width: 50%;
+    }
+
     .header__img {
         width: 12rem;
         height: 12rem;
