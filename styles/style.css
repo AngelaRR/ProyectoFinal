@@ -227,12 +227,7 @@ body {
 @media (max-width:1600px) {
     .main__nosotros {
         grid-template-columns: 1fr 2fr; 
-        justify-items: flex-start; 
-    }
-
-    .main__nosotros--img {
-        width: 60%;
-        height: 60%;
+        justify-content: flex-start; 
     }
 
     .main__nosotros--titulo {
@@ -243,19 +238,6 @@ body {
         width: 90%;
         height: 50%;
     }
-
-    @keyframes efectoNosotros {
-        0% {
-         width: 20%;
-         height: 20%;
-         transform: rotate(0deg);
-        } 
-        100% {
-         width: 60%;
-         height: 60%;
-         transform: rotate(360deg);
-        } 
-     }
 } 
 
 /* MONITORES */
