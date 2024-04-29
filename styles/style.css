@@ -260,7 +260,7 @@ body {
     grid-area: titulo;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    align-self: flex-end;
+    align-self: center;
 }
 
 .main__monitor--titulo {
@@ -272,8 +272,8 @@ body {
 }
 
 .main__monitor--card {
-    width: 60%;
-    height: 90%;
+    width: 70%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -332,12 +332,7 @@ body {
 
 @media (max-width:1600px) {
     .main__monitor--titulo {
-        font-size: 2rem;
-    }
-
-    .main__monitor--card {
-        width: 50%;
-        height: 70%;
+        font-size: 2.5rem;
     }
 }
 
