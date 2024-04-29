@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/x-icon" href="media/img/logo.png" />
+        <title>Club Seurri</title>
+        <meta name="keywords" content="club seurri, tiro con arco, sarria" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+        <script src="scripts/script.js" defer></script>
+    </head>
+
+    <body>
+        <header class="header"> 
+            <div class="header__menu">
+              <nav class="header__nav">
+                <ul class="header__listaIzq">
+                  <a href="index.html" class="header__link">
+                    <li class="header__elementoLista">INICIO</li>
+                  </a>
+                  <a href="nosotros.html" class="header__link">
+                    <li class="header__elementoLista">NOSOTROS</li>
+                  </a>
+                  <a href="monitores.html" class="header__link">
+                    <li class="header__elementoLista">MONITORES</li>
+                  </a>
+                </ul>
+      
+                <ul class="header__listaDer">
+                  <a href="blog.html" class="header__link">
+                    <li class="header__elementoLista">BLOG</li>
+                  </a>
+                  <a href="tienda.html" class="header__link">
+                    <li class="header__elementoLista">TIENDAS</li>
+                  </a>
+                  <a href="contacto.html" class="header__link header__link--active">
+                    <li class="header__elementoLista">CONTACTO</li>
+                  </a>
+                </ul>
+              </nav>
+            </div>
+      
+            <div class="header__logo">
+              <img src="/media/img/logo.png" alt="Seurri" class="header__img"/>
+            </div>
+          </header>
+
+        <main class="main">
+            <section class="contacto">
+                <h2 class="contacto__titulo">CONTACTO</h2>
+                <div class="contacto__container">
+                  <div class="contacto__contactar">
+                    <div class="contacto__email">
+                      <p class="contacto__iconoEmail"><i class="fa-solid fa-at"></i></p>
+                      <p class="contacto__correo">seurri@gmail.com</p>
+                    </div>
+          
+                    <div class="contacto__formulario">
+                      <form action="" class="contacto__form">
+                        <div class="contacto__form--datos">
+                          <input type="text" id="nombre" name="Nombre" class="contacto__input" placeholder="Nombre">
+                          <input type="email" id="email" name="Email" class="contacto__input" placeholder="Correo electrónico">  
+                        </div>
+          
+                        <textarea id="dudas" name="Dudas o sugerencias" class="contacto__input contacto__input--dudas" placeholder="Dudas o sugerencias"></textarea>
+                        <input type="submit" class="contacto__btn" value="Envíar">
+                      </form>
+                    </div>
+                  </div>
+
+                  <div class="contacto__direccion">
+                    <div class="contacto__horario">
+                      <div class="contacto__informacion">
+                        <h3 class="contacto__subtitulo">Horario:</h3>
+                        <p class="contacto__dias">Martes -> 17:00 - 20:00</p>
+                        <p class="contacto__dias">Jueves -> 18:00 - 20:00</p>
+                        <p class="contacto__dias">Sábados -> 11:00 - 12:30</p>
+                      </div>
+                    </div>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2928.583658440403!2d-7.409153523301783!3d42.776009671157375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3047f3479516b9%3A0xc35f47dfdc2a5ed!2sClub%20Seurri!5e0!3m2!1ses-419!2ses!4v1713772907392!5m2!1ses-419!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contacto__iframe"></iframe>
+                  </div>
+                </div>
+            </section>  
+        </main>
+
+        <footer class="footer" id="footer">
+            <div class="footer__email">
+                <p class="footer__iconoEmail"><i class="fa-solid fa-at"></i></p>
+                <p class="footer__correo">seurri@gmail.com</p>
+            </div>
+            
+            <div class="footer__copyright">
+                <p class="footer__copyright--texto">&copy;Club Seurri 2024</p>
+            </div>
+    
+            <ul class="footer__rrss">
+                <li class="footer__elementoRRSS">
+                    <a href="https://www.instagram.com/seurrisarria/" class="footer__link" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="footer__elementoRRSS">
+                    <a href="https://www.facebook.com/profile.php?id=100007920586699&sk=photos_by&locale=es_ES" class="footer__link" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
