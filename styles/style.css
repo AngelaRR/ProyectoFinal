@@ -801,5 +801,7 @@ body {
         justify-content: space-around;
         align-items: center;
         z-index: 2;
+        position: absolute;
+        bottom: 0;
     }
 } 
