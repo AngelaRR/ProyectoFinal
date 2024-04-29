@@ -225,6 +225,10 @@ body {
 }
 
 @media (max-width:1600px) {
+    .main__nosotros {
+        grid-template-columns: 1fr 2fr;  
+    }
+
     .main__nosotros--img {
         width: 50%;
         height: 50%;
@@ -235,11 +239,8 @@ body {
     }
 
     .main__nosotros--parrafo {
-        width: 80%;
+        width: 90%;
         height: 50%;
-        font-size: 1.3rem;
-        color: white;
-        margin: 0;
     }
 } 
 
