@@ -224,6 +224,25 @@ body {
    } 
 }
 
+@media (max-width:1600px) {
+    .main__nosotros--img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .main__nosotros--titulo {
+        font-size: 3rem;
+    }
+
+    .main__nosotros--parrafo {
+        width: 50%;
+        height: 50%;
+        font-size: 1.3rem;
+        color: white;
+        margin: 0;
+    }
+} 
+
 /* MONITORES */
 .main__monitores{
     width: 100%;
