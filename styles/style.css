@@ -565,6 +565,7 @@ body {
     .main__blog--ver {
         height: 60%;
         right: 5rem;
+        bottom: 0;
         align-items: end;
     }
 }
