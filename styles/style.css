@@ -216,7 +216,7 @@ body {
     }
     
     .inicio__subtitulo {
-        font-size: 1rem;
+        font-size: 2rem;
     }   
 }
 
@@ -524,7 +524,7 @@ body {
     .main__blog--container {
         width: 100%;
         height: 50%;
-        margin: 0 0 0 3rem;
+        margin: 0 0 3rem 0;
     }
     
     .main__blog--carrusel {
