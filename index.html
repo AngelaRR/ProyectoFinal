@@ -14,11 +14,15 @@
 
   <body>
     <header class="header"> 
-      <div class="header__menu">
-        <nav class="header__nav">
+      <div class="header__menu" id="header__menu">
+        <button type="button" class="header__burguer header__elementoLista--desaparece" id="botonMenu">
+          <i class="fa-solid fa-bars header__boton" id="iconoMenu"></i>
+        </button>
+
+        <nav class="header__nav" id="header__nav">
           <ul class="header__listaIzq">                  
             <li class="header__elementoLista">
-              <a href="index.html" class="header__link">
+              <a href="index.html" class="header__link header__link--active">
                 INICIO
               </a>
             </li>
@@ -50,15 +54,9 @@
             </li>
             
             <li class="header__elementoLista">
-              <a href="contacto.html" class="header__link header__link--active">
+              <a href="contacto.html" class="header__link">
                 CONTACTO
               </a>
-            </li>
-
-            <li class="header__elementoLista header__elementoLista--desaparece">
-              <button type="button" class="header__burguer" id="botonMenu">
-                <i class="fa-solid fa-bars header__boton" id="iconoMenu"></i>
-              </button>
             </li>
           </ul>
         </nav>

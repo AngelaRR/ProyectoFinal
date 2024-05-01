@@ -1,26 +1,18 @@
-let isOpen = false;
-
 function handlerEvents() {
+    let botonAbrir = document.getElementById('botonMenu'); 
 
-    let menu = document.getElementById("botonMenu");
-    menu.addEventListener("click",handlerMenu);
+    botonAbrir.addEventListener('click',handlerOpen);
 }
 
-function handlerMenu() {
+function handlerOpen() {
+    let iconoMenu = document.getElementById('botonMenu');
+    let menu = document.getElementById('header__menu');
+    let nav = document.getElementById('header__nav');
 
-    let list = document.getElementById("lista");
-    let icon = document.getElementById("iconoMenu");
-
-    if(isOpen == false) {
-
-        list.style.display = 'block';
-        icon.className = 'fa-solid fa-xmark';
-        isOpen = true;
-
-    }else {
-
-        list.style.display = 'none';
-        isOpen = false;
-        icon.className = 'fa-solid fa-bars';
-    }
+    iconoMenu.style.display = 'none';
+    menu.style.height = '100%';
+    nav.style.display = 'flex';
 }
+
+
+window.onload = handlerEvents;

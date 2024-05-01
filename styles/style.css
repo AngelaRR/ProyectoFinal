@@ -90,6 +90,8 @@ body {
 .header__boton {
     font-size: 1.5rem;
     color: white;
+    cursor: pointer;
+    padding: 1rem;
 }
 
 .header__logo {
@@ -121,12 +123,26 @@ body {
 } 
 
 @media (max-width: 1450px){
-    .header__elementoLista {
-        display: none;
-    }
-
     .header__elementoLista--desaparece {
         display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .header__nav {
+        display: none;
+        flex-direction: column;   
+        align-items: center; 
+    }
+
+    .header__listaIzq {  
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header__listaDer {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -851,3 +867,10 @@ body {
         bottom: 0.5rem;
     }
 } 
+
+
+
+
+
+
+
