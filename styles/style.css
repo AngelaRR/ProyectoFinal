@@ -78,6 +78,20 @@ body {
     padding: 0 5rem;
 }
 
+.header__elementoLista--desaparece {
+    display: none;
+}
+
+.header__burguer {
+    background-color: transparent;
+    border: none;
+}
+
+.header__boton {
+    font-size: 1.5rem;
+    color: white;
+}
+
 .header__logo {
     display: flex;
     justify-content: space-around;
@@ -105,6 +119,16 @@ body {
         height: 12rem;
     }
 } 
+
+@media (max-width: 1450px){
+    .header__elementoLista {
+        display: none;
+    }
+
+    .header__elementoLista--desaparece {
+        display: block;
+    }
+}
 
 /* INICIO */
 

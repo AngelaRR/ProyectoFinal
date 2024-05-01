@@ -1,17 +1,26 @@
-function handlerEvent() {
-    let inicio = document.getElementById('linkInicio');
-    let nosotros = document.getElementById('linkNosotros');
-    let monitores = document.getElementById('linkMonitores');
-    let blog = document.getElementById('linkBlog');
-    let tiendas = document.getElementById('linkTiendas');
-    let contacto = document.getElementById('linkContacto');
+let isOpen = false;
 
-    inicio.addEventListener('click', handlerPaginas);
+function handlerEvents() {
+
+    let menu = document.getElementById("botonMenu");
+    menu.addEventListener("click",handlerMenu);
 }
 
-function handlerPaginas(e) {
-    console.log('hola');
-    console.log(e);
-}
+function handlerMenu() {
 
-window.load = handlerEvent;
+    let list = document.getElementById("lista");
+    let icon = document.getElementById("iconoMenu");
+
+    if(isOpen == false) {
+
+        list.style.display = 'block';
+        icon.className = 'fa-solid fa-xmark';
+        isOpen = true;
+
+    }else {
+
+        list.style.display = 'none';
+        isOpen = false;
+        icon.className = 'fa-solid fa-bars';
+    }
+}
