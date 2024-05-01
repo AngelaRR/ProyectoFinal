@@ -15,6 +15,7 @@ body {
     --blancoFondo1: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.822));
     --blancoFondo2:linear-gradient(rgba(255, 255, 255, 0.822),rgba(255, 255, 255, 0.87));
     --azulMenu: linear-gradient(rgba(0, 115, 192, 0.822),rgba(255, 255, 255, 0));
+    --azulMenu2: linear-gradient(rgb(0, 115, 192),rgba(0, 0, 0, 0.575));
     --amarillo: rgb(235, 211, 0);
     --blancoTranslucido: rgba(255, 255, 255, 0.801);
     --amarilloTranslucido: rgba(251, 255, 0, 0.555);
@@ -123,6 +124,10 @@ body {
 } 
 
 @media (max-width: 1450px){
+    .header__menu {
+        background-image: var(--azulMenu2);
+    }
+
     .header__elementoLista--desaparece {
         display: block;
         position: absolute;
@@ -384,18 +389,13 @@ body {
 .main__blog {
     width: 100%;
     height: 80vh;
-    display: grid;
-    grid-template-rows: 80% 10%;
-    justify-items: center;
 }
 
 .main__blog--titular {
     position: absolute;
     right: 0;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    align-self: center;
-    padding: 2rem;
+    top: 0;
+    padding: 5rem;
 }
 
 .main__blog--tituloPrincipal {
@@ -476,9 +476,11 @@ body {
 
 .main__blog--ver {
     width: 100%;
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
     display: flex;
-    flex-direction: row-reverse;  
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .main__blog--linkVer {
@@ -487,7 +489,6 @@ body {
     text-decoration: underline;
     font-size: 1.5rem;
     cursor: pointer;
-    padding: 0 4rem;
 }
 
 .main__blog--linkVer:hover {
@@ -810,7 +811,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
+    position: absolute;
     bottom: 0;
     margin: 0.5rem 0rem ;
 }
