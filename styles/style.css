@@ -144,6 +144,10 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .header__link {
+        font-size: 2.5rem;
+    }    
 }
 
 /* INICIO */
@@ -865,6 +869,12 @@ body {
         z-index: 2;
         position: absolute;
         bottom: 0.5rem;
+    }
+} 
+
+@media (max-width:1450px) {
+    .footer {
+        bottom: 0rem;
     }
 } 
 
