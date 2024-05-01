@@ -874,6 +874,7 @@ body {
 
 @media (max-width:1450px) {
     .footer {
+        position: relative;
         bottom: 0rem;
     }
 } 
