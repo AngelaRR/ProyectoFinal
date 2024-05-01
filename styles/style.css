@@ -50,6 +50,7 @@ body {
 .header__listaIzq {  
     width: 40%;
     display: flex;
+    justify-content: flex-start;
     list-style-type: none;
     padding: 0; 
     margin: 0;
@@ -58,6 +59,7 @@ body {
 .header__listaDer {
     width: 40%;
     display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -522,6 +524,7 @@ body {
     .main__blog--container {
         width: 100%;
         height: 50%;
+        margin: 3rem 0;
     }
     
     .main__blog--carrusel {
@@ -872,7 +875,7 @@ body {
     height: 5vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
     margin: 0.5rem 0rem ;
 }
 
