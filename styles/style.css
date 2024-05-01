@@ -741,7 +741,12 @@ body {
     }
 
     .contacto__container {
-        padding: 0rem 1rem;
+        padding: 0;
+        margin: 0rem 2rem;
+    }
+
+    .contacto__contactar {
+        height: 90%;
     }
 
     .contacto__subtitulo {
