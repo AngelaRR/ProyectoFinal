@@ -826,10 +826,12 @@ body {
     }
 
     .tienda__boton1 {
+        display: flex;
         justify-content: flex-start;
     }
 
     .tienda__boton2 {
+        display: flex;
         justify-content: flex-end;
     }
 }
