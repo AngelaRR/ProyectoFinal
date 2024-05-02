@@ -813,7 +813,7 @@ body {
     }
 }
 
-@media (max-width:845px) {
+@media (max-width:842px) {
     .main__tienda--boton {
         width: 20rem;
         height: 5rem;
