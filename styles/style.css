@@ -671,6 +671,10 @@ body {
         overflow-x: hidden;
     }
 
+    .main__blog--container {
+        height: 20%;
+    }
+
     .main__blog--carrusel {
         width: 40%;
         perspective: 8000px;
