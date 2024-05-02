@@ -226,6 +226,16 @@ body {
     }   
 }
 
+@media (max-width: 576px){
+    .inicio__titulo {
+        height: 50%;
+    }
+
+    .inicio__subtitulo {
+        height: 10%;
+    }
+}
+
 /* NOSOTROS */
 .main__nosotros {
     width: 100%;
@@ -320,6 +330,14 @@ body {
 @media (max-width:992px) {
     .main__nosotros {
         height: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .main__nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -1076,6 +1094,16 @@ body {
     .contacto__contactar {
         width: 100%;
         height: 90%;
+    }
+}
+
+@media (max-width:576px) {
+    .contacto__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem;
+        gap: 1rem;
     }
 }
 
