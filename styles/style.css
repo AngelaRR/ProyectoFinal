@@ -305,7 +305,7 @@ body {
     }
 }
 
-@media (max-width:1050px) {
+@media (max-width:1100px) {
     .main__nosotros {
         margin: 0 0 15rem 0;
     }
@@ -666,7 +666,7 @@ body {
     }
 }
 
-@media (max-width:1050px) {        
+@media (max-width:1100px) {        
     .main__blog {
         overflow: hidden;
     }
@@ -774,7 +774,7 @@ body {
     color: white;
 }
 
-@media (max-width:1050px) {
+@media (max-width:1100px) {
     .main__tienda--boton {
         width: 20rem;
         height: 8rem;
