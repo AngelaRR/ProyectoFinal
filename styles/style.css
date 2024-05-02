@@ -671,10 +671,6 @@ body {
         overflow-x: hidden;
     }
 
-    .main__blog--container {
-        margin: 0 0 3rem 0;
-    }
-
     .main__blog--carrusel {
         width: 40%;
         perspective: 8000px;
@@ -704,6 +700,7 @@ body {
         right: 1rem;
         bottom: 0;
         align-items: end;
+        margin: 2rem 0 0 0;
     }
 }
 
