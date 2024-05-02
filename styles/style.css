@@ -658,8 +658,13 @@ body {
         bottom: 0;
         align-items: end;
     }
+}
 
-    @media (max-width:840px) {        
+@media (max-width:840px) {        
+    .main__blog {
+        overflow: hidden;
+    }
+
     .main__blog--carrusel {
         width: 60%;
         perspective: 8000px;
