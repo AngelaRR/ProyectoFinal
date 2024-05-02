@@ -754,6 +754,46 @@ body {
     .main__blog--slide:nth-child(7){transform: rotateY(300deg) translateZ(500px);}
 }
 
+@media (max-width:768px) {        
+    .main__blog {
+        overflow: hidden;
+    }
+
+    .main__blog--titular {
+        top: -4rem;
+    }
+
+    .main__blog--carrusel {
+        width: 50%;
+        perspective: 8000px;
+    }
+    
+    .main__blog--slide:nth-child(1){transform: rotateY(0deg) translateZ(500px);}
+    
+    .main__blog--slide:nth-child(2){transform: rotateY(50deg) translateZ(500px);}
+    
+    .main__blog--slide:nth-child(3){transform: rotateY(100deg) translateZ(500px);}
+    
+    .main__blog--slide:nth-child(4){transform: rotateY(150deg) translateZ(500px);}
+    
+    .main__blog--slide:nth-child(5){transform: rotateY(200deg) translateZ(500px);}
+    
+    .main__blog--slide:nth-child(6){transform: rotateY(250deg) translateZ(500px);}
+    
+    .main__blog--slide:nth-child(7){transform: rotateY(300deg) translateZ(500px);}
+
+    .main__blog--img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .main__blog--ver {
+        right: 1rem;
+        bottom: 0;
+        align-items: end;
+    }
+}
+
 
 
 /* TIENDA */
