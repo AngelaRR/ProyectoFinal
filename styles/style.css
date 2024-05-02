@@ -669,6 +669,9 @@ body {
 @media (max-width:1200px) { 
     .main__blog {
         overflow-x: hidden;
+    }
+
+    .main__blog--container {
         margin: 0 0 10rem 0;
     }
 
