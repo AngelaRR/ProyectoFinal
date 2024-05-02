@@ -814,14 +814,6 @@ body {
 }
 
 @media (max-width:768px) {
-    .main__tienda--boton {
-        width: 20rem;
-        height: 5rem;
-        border-radius: 1rem;
-    }
-}
-
-@media (max-width:767px) {
     .main__tienda--botones {
         flex-direction: column;
         justify-content: space-between;
@@ -831,6 +823,14 @@ body {
         width: 20rem;
         height: 5rem;
         border-radius: 1rem;
+    }
+
+    .main__boton1 {
+        justify-content: flex-start;
+    }
+
+    .main__boton1 {
+        justify-content: flex-end;
     }
 }
 
