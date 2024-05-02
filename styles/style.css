@@ -825,11 +825,11 @@ body {
         border-radius: 1rem;
     }
 
-    .main__boton1 {
+    .tienda__boton1 {
         justify-content: flex-start;
     }
 
-    .main__boton1 {
+    .tienda__boton2 {
         justify-content: flex-end;
     }
 }
