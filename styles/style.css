@@ -788,6 +788,7 @@ body {
 @media (max-width:992px) and (orientation:portrait){        
     .main__blog {
         overflow: hidden;
+        height: 70vh;
     }
 
     .main__blog--titular {
