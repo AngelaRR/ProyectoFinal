@@ -1139,7 +1139,7 @@ body {
 
 @media (max-width:576px) {
     .contacto__titulo {
-        margin: 2rem;
+        margin: 4rem;
     }
 
     .contacto__container {
