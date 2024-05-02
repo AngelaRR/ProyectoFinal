@@ -668,8 +668,8 @@ body {
 
 @media (max-width:1200px) { 
     .main__blog {
-        height: 100vh;
         overflow-x: hidden;
+        margin: 0 0 10rem 0;
     }
 
     .main__blog--carrusel {
