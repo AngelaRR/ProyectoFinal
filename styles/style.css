@@ -668,11 +668,11 @@ body {
 
 @media (max-width:1200px) { 
     .main__blog {
-        margin: 0 0 3rem 0;
+        overflow-x: hidden;
     }
 
-    .main__blog {
-        overflow-x: hidden;
+    .main__blog--container {
+        margin: 0 0 3rem 0;
     }
 
     .main__blog--carrusel {
