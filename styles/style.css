@@ -305,7 +305,7 @@ body {
     }
 } 
 
-@media (max-width:860px) {
+@media (max-width:900px) {
     .main__nosotros {
         margin: 0 0 5rem 0;
     }
@@ -691,7 +691,7 @@ body {
     .main__blog--slide:nth-child(7){transform: rotateY(300deg) translateZ(500px);}
 }
 
-@media (max-width:860px) {        
+@media (max-width:900px) {        
     .main__blog {
         overflow: hidden;
     }
@@ -778,7 +778,7 @@ body {
     }
 }
 
-@media (max-width:860px) {
+@media (max-width:900px) {
     .main__tienda--boton {
         width: 30rem;
         height: 10rem;
