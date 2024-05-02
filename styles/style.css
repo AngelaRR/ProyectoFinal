@@ -769,7 +769,7 @@ body {
     .main__blog--slide:nth-child(7){transform: rotateY(300deg) translateZ(500px);}
 }
 
-@media (max-width:992px) {        
+/* @media (max-width:992px) {        
     .main__blog {
         overflow: hidden;
     }
@@ -807,9 +807,9 @@ body {
         bottom: 0;
         align-items: end;
     }
-}
+} */
 
-@media (max-width:576px) {        
+@media (max-width:992) {        
     .main__blog {
         overflow: hidden;
     }
