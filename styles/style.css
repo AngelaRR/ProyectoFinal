@@ -821,7 +821,7 @@ body {
     }
 }
 
-@media (max-width:760px) {
+@media (max-width:500px) {
     .main__tienda--botones {
         flex-direction: column;
         justify-content: space-between;
