@@ -330,16 +330,12 @@ body {
 @media (max-width:992px) {
     .main__nosotros {
         height: 100%;
-    }
-}
-
-@media (max-width:576px) {
-    .main__nosotros {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 }
+
 
 /* MONITORES */
 .main__monitores{
