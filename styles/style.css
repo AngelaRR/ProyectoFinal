@@ -671,10 +671,6 @@ body {
         overflow-x: hidden;
     }
 
-    .main__blog--container {
-        height: 20%;
-    }
-
     .main__blog--carrusel {
         width: 40%;
         perspective: 8000px;
@@ -693,6 +689,11 @@ body {
     .main__blog--slide:nth-child(6){transform: rotateY(250deg) translateZ(500px);}
     
     .main__blog--slide:nth-child(7){transform: rotateY(300deg) translateZ(500px);}
+
+    .main__blog--img {
+        width: 20rem;
+        height: 20rem;
+    }
 
     .main__blog--ver {
         height: 80vh;
