@@ -813,7 +813,7 @@ body {
     }
 }
 
-@media (max-width:840px) {
+@media (max-width:768px) {
     .main__tienda--boton {
         width: 20rem;
         height: 5rem;
@@ -821,7 +821,7 @@ body {
     }
 }
 
-@media (max-width:835px) {
+@media (max-width:760px) {
     .main__tienda--botones {
         flex-direction: column;
         justify-content: space-between;
