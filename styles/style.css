@@ -668,6 +668,7 @@ body {
 
 @media (max-width:1200px) { 
     .main__blog {
+        height: 100vh;
         overflow-x: hidden;
     }
 
@@ -696,11 +697,9 @@ body {
     }
 
     .main__blog--ver {
-        height: 80vh;
         right: 1rem;
         bottom: 0;
         align-items: end;
-        margin: 2rem 0 0 0;
     }
 }
 
