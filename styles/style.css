@@ -344,11 +344,16 @@ body {
 
 /* Para resoluciones de tablet o pantallas pequeñas */
 @media (max-width:992px) {
+    .main__nosotros--imgPicture {
+        flex-direction: column;
+    }
+
     .main__nosotros {
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 5rem 0 0 0 ;
     }
 }
 
