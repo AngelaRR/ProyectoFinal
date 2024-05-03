@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="media/img/logo.png" />
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/img/logo.png">
     <title>Club Seurri</title>
-    <meta name="keywords" content="club seurri, tiro con arco, sarria" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="keywords" content="club seurri, tiro con arco, sarria">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- Enlazamos los archivos de estilos CSS y los archivos de JavaScript. Además enlazamos los archivos de iconos -->
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="scripts/script.js" defer></script>
   </head>
 
   <body>
+    <!-- Cabezera que será el menú de opciones, será distinto según la resolución de la pantalla -->
     <header class="header"> 
       <div class="header__menu" id="header__menu">
-        <button type="button" class="header__burguer header__elementoLista--desaparece" id="botonMenu">
+        <button type="button" class="header__burguer header__elementoLista--desaparece" id="botonMenu" title="Menú">
           <i class="fa-solid fa-bars header__boton" id="iconoMenu"></i>
         </button>
 
         <nav class="header__nav" id="header__nav">
           <ul class="header__listaIzq">                  
             <li class="header__elementoLista">
-              <a href="index.html" class="header__link">
+              <a href="index.html" class="header__link" title="Inicio" rel="noreferrer">
                 INICIO
               </a>
             </li>
           
             <li class="header__elementoLista">
-              <a href="nosotros.html" class="header__link">
+              <a href="nosotros.html" class="header__link" title="Nosotros" rel="noreferrer">
                 NOSOTROS
               </a>
             </li>
             
             <li class="header__elementoLista">
-              <a href="monitores.html" class="header__link">
+              <a href="monitores.html" class="header__link" title="Monitores" rel="noreferrer">
                 MONITORES
               </a>
             </li>
@@ -42,19 +44,19 @@
 
           <ul class="header__listaDer">  
             <li class="header__elementoLista">
-              <a href="blog.html" class="header__link">
+              <a href="blog.html" class="header__link" title="Blog" rel="noreferrer">
                 BLOG
               </a>
             </li>        
             
             <li class="header__elementoLista">
-              <a href="tienda.html" class="header__link header__link--active">
+              <a href="tienda.html" class="header__link header__link--active" title="Tiendas" rel="noreferrer">
                 TIENDAS
               </a>
             </li>
             
             <li class="header__elementoLista">
-              <a href="contacto.html" class="header__link">
+              <a href="contacto.html" class="header__link" title="Contacto" rel="noreferrer">
                 CONTACTO
               </a>
             </li>
@@ -63,33 +65,35 @@
       </div>
 
       <div class="header__logo">
-        <img src="/media/img/logo.png" alt="Seurri" class="header__img" id="header__img"/>
+        <picture>
+          <source srcset="/media/img/logo.png" class="header__img">
+          <img src="/media/img/logo.png" alt="Seurri" class="header__img" id="header__img" loading="lazy">
+        </picture>
       </div>
     </header>
 
+    <!-- Página con un video y botones que enlazan con url's de tiendas específicas de este deporte -->
     <main class="main">
-      <section class="main__tienda" id="tienda">   
-        <video muted loop autoplay class="main__tienda--video">
-          <source src="/media/videos/tienda.mp4" type="video/mp4" class="main__tienda--video">
-            Tu navegador no soporta este video
+      <div class="main__tienda" id="tienda">   
+        <video muted loop autoplay class="main__tienda--video" poster="/media/img/fotoVideo.jpg">
+          <source src="/media/videos/tiendaMP4.mp4" type="video/mp4" class="main__tienda--video">
+          <source src="/media/videos/tiendaWEBM.webm" type="video/webm" class="main__tienda--video">
+          Tu navegador no soporta este video
         </video>
+
         <div class="main__tienda--botones">
-          <div class="tienda__boton1">
-            <a href="https://www.nockpoint.es/b2c/1" target="_blank">
+          <div class="tienda__botonIzq">
               <button type="button" class="main__tienda--boton" id="tienda1">Nockpoint</button>
-            </a>
           </div>
           
-          <div class="tienda__boton2">
-            <a href="https://cerraarchery.com/" target="_blank">
+          <div class="tienda__botonDer">
               <button type="button" class="main__tienda--boton" id="tienda2">Cerra</button>
-            </a>
-          </div>
-          
+          </div>          
         </div>
-      </section> 
+      </div> 
     </main>
 
+    <!-- Pie de página con enlaces de contacto -->
     <footer class="footer" id="footer">
       <div class="footer__email">
         <p class="footer__iconoEmail"><i class="fa-solid fa-at"></i></p>
@@ -102,12 +106,12 @@
 
       <ul class="footer__rrss">
         <li class="footer__elementoRRSS">
-          <a href="https://www.instagram.com/seurrisarria/" class="footer__link" target="_blank">
+          <a href="https://www.instagram.com/seurrisarria/" class="footer__link" target="_blank" title="Instagram Seurri" rel="noreferrer">
             <i class="fa-brands fa-instagram"></i>
           </a>
         </li>
         <li class="footer__elementoRRSS">
-          <a href="https://www.facebook.com/profile.php?id=100007920586699&sk=photos_by&locale=es_ES" class="footer__link" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100007920586699&sk=photos_by&locale=es_ES" class="footer__link" target="_blank" title="Facebook Seurri" rel="noreferrer">
             <i class="fa-brands fa-facebook"></i>
           </a>
         </li>

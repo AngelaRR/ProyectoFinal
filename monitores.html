@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="media/img/logo.png" />
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/img/logo.png">
     <title>Club Seurri</title>
-    <meta name="keywords" content="club seurri, tiro con arco, sarria" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="keywords" content="club seurri, tiro con arco, sarria">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- Enlazamos los archivos de estilos CSS y los archivos de JavaScript. Además enlazamos los archivos de iconos -->
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="scripts/script.js" defer></script>
   </head>
 
   <body>
+    <!-- Cabezera que será el menú de opciones, será distinto según la resolución de la pantalla -->
     <header class="header"> 
       <div class="header__menu" id="header__menu">
-        <button type="button" class="header__burguer header__elementoLista--desaparece" id="botonMenu">
+        <button type="button" class="header__burguer header__elementoLista--desaparece" id="botonMenu" title="Menú">
           <i class="fa-solid fa-bars header__boton" id="iconoMenu"></i>
         </button>
 
         <nav class="header__nav" id="header__nav">
           <ul class="header__listaIzq">                  
             <li class="header__elementoLista">
-              <a href="index.html" class="header__link">
+              <a href="index.html" class="header__link" title="Inicio" rel="noreferrer">
                 INICIO
               </a>
             </li>
           
             <li class="header__elementoLista">
-              <a href="nosotros.html" class="header__link">
+              <a href="nosotros.html" class="header__link" title="Nosotros" rel="noreferrer">
                 NOSOTROS
               </a>
             </li>
             
             <li class="header__elementoLista">
-              <a href="monitores.html" class="header__link  header__link--active">
+              <a href="monitores.html" class="header__link  header__link--active" title="Monitores" rel="noreferrer">
                 MONITORES
               </a>
             </li>
@@ -42,19 +44,19 @@
 
           <ul class="header__listaDer">  
             <li class="header__elementoLista">
-              <a href="blog.html" class="header__link">
+              <a href="blog.html" class="header__link" title="Blog" rel="noreferrer">
                 BLOG
               </a>
             </li>        
             
             <li class="header__elementoLista">
-              <a href="tienda.html" class="header__link">
+              <a href="tienda.html" class="header__link" title="Tiendas" rel="noreferrer">
                 TIENDAS
               </a>
             </li>
             
             <li class="header__elementoLista">
-              <a href="contacto.html" class="header__link">
+              <a href="contacto.html" class="header__link" title="Contacto" rel="noreferrer">
                 CONTACTO
               </a>
             </li>
@@ -63,36 +65,50 @@
       </div>
 
       <div class="header__logo">
-        <img src="/media/img/logo.png" alt="Seurri" class="header__img" id="header__img"/>
+        <picture>
+          <source srcset="/media/img/logo.png" class="header__img">
+          <img src="/media/img/logo.png" alt="Seurri" class="header__img" id="header__img" loading="lazy">
+        </picture>
       </div>
     </header>
 
+    <!-- Página donde se muestran los distintos monitores del club deportivo -->
     <main class="main">
       <section class="main__monitores" id="monitores">
-        <article class="main__monitor">
+        <div class="main__monitor">
           <h2 class="main__monitor--titulo">MONITORES</h2>
-        </article>
+        </div>
         
         <article class="main__monitor--card main__card1" id="monitor1">
-          <img src="/media/img/monitor1.jpeg" alt="Monitor" class="main__monitor--img">
+          <picture>
+            <source srcset="/media/img/monitor1.jpeg" class="main__monitor--img">
+            <img src="/media/img/monitor1.jpeg" alt="Monitor" class="main__monitor--img" loading="lazy">
+          </picture>         
           <h2 class="main__monitor--nombre">Alberto</h2>
           <p class="main__monitor--texto">Monitor autonómico desde 2018 y monitor nacional nivel 1 desde 2024</p>
         </article>
 
         <article class="main__monitor--card main__card2" id="monitor2">
-          <img src="/media/img/monitor2.jpeg" alt="Monitor" class="main__monitor--img">
+          <picture>
+            <source srcset="/media/img/monitor2.jpeg" class="main__monitor--img">
+            <img src="/media/img/monitor2.jpeg" alt="Monitor" class="main__monitor--img" loading="lazy">
+          </picture> 
           <h2 class="main__monitor--nombre">Ángela</h2>
           <p class="main__monitor--texto">Monitora nacional nivel 1 desde 2024</p>
         </article>
 
         <article class="main__monitor--card main__card3" id="monitor3">
-          <img src="/media/img/monitor3.jpeg" alt="Monitor" class="main__monitor--img">
+          <picture>
+            <source srcset="/media/img/monitor3.jpeg" class="main__monitor--img">
+            <img src="/media/img/monitor3.jpeg" alt="Monitor" class="main__monitor--img" loading="lazy">
+          </picture> 
           <h2 class="main__monitor--nombre">Alejandro</h2>
           <p class="main__monitor--texto">Monitora nacional nivel 1 desde 2024</p>
         </article>
       </section>
     </main>
 
+    <!-- Pie de página con enlaces de contacto -->
     <footer class="footer" id="footer">
       <div class="footer__email">
         <p class="footer__iconoEmail"><i class="fa-solid fa-at"></i></p>
@@ -105,12 +121,12 @@
 
       <ul class="footer__rrss">
         <li class="footer__elementoRRSS">
-          <a href="https://www.instagram.com/seurrisarria/" class="footer__link" target="_blank">
+          <a href="https://www.instagram.com/seurrisarria/" class="footer__link" target="_blank" title="Instagram Seurri" rel="noreferrer">
             <i class="fa-brands fa-instagram"></i>
           </a>
         </li>
         <li class="footer__elementoRRSS">
-          <a href="https://www.facebook.com/profile.php?id=100007920586699&sk=photos_by&locale=es_ES" class="footer__link" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100007920586699&sk=photos_by&locale=es_ES" class="footer__link" target="_blank" title="Facebook Seurri" rel="noreferrer">
             <i class="fa-brands fa-facebook"></i>
           </a>
         </li>
